@@ -20,7 +20,7 @@
     <div class="col-md-12">
       <app-stars [rating]="review.rating"></app-stars>
       <span>{{review.user}}</span>
-      <span class="pull-right">{{review.timestamp | date: 'shortDate'}}</span>
+      <span class="pull-right">{{review.timestamp | date: 'y-MM-dd'}}</span>
       <p>{{review.comment}}</p>
     </div>
   </div>
