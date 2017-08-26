@@ -1,7 +1,7 @@
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AUCTION_SERVICES } from './services';
 
@@ -14,6 +14,8 @@ import { SearchComponent } from './search/search.component';
 import { StarsComponent } from './stars/stars.component';
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 import { HomeComponent } from './home/home.component';
+import { CustomCurrencyPipe } from './product/custom-currency.pipe';
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -25,12 +27,15 @@ import { HomeComponent } from './home/home.component';
     SearchComponent,
     StarsComponent,
     ProductDetailComponent,
-    HomeComponent
+    HomeComponent,
+    CustomCurrencyPipe,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [AUCTION_SERVICES],
   bootstrap: [AppComponent]
