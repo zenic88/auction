@@ -26,7 +26,7 @@ const products = [
   {
     'id': 0,
     'title': 'First Product',
-    'price': 24.99,
+    'price': 24999,
     'rating': 4.3,
     'description': 'This is a shor description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     'categories': ['electronics', 'hardware']
@@ -34,7 +34,7 @@ const products = [
   {
     'id' : 1,
     'title' : 'Second Product',
-    'price' : 64.99,
+    'price' : 64999,
     'rating' : 3.5,
     'description' : 'This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     'categories' : ['books']
@@ -42,7 +42,7 @@ const products = [
   {
     'id' : 2,
     'title' : 'Third Product',
-    'price' : 74.99,
+    'price' : 74999,
     'rating' : 4.2,
     'description' : 'This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     'categories' : ['electronics']
@@ -50,7 +50,7 @@ const products = [
   {
     'id' : 3,
     'title' : 'Fourth Product',
-    'price' : 84.99,
+    'price' : 84999,
     'rating' : 3.9,
     'description' : 'This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     'categories' : ['hardware']
@@ -58,7 +58,7 @@ const products = [
   {
     'id' : 4,
     'title' : 'Fifth Product',
-    'price' : 94.99,
+    'price' : 94999,
     'rating' : 5,
     'description' : 'This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     'categories' : ['electronics', 'hardware']
@@ -66,7 +66,7 @@ const products = [
   {
     'id' : 5,
     'title' : 'Sixth Product',
-    'price' : 54.99,
+    'price' : 54999,
     'rating' : 4.6,
     'description' : 'This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     'categories' : ['books']
